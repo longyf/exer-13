@@ -8,6 +8,7 @@ void test1() {
     int cols=6;
     int k=5;
     cout<<findPath(rows,cols,k)<<" "<<func(rows,cols,k)<<endl;
+	cout<<endl;
 }
 
 void test2() {
@@ -15,6 +16,7 @@ void test2() {
     int cols=6;
     int k=5;
     cout<<findPath(rows,cols,k)<<" "<<func(rows,cols,k)<<endl;
+	cout<<endl;
 }
 
 void test3() {
@@ -22,6 +24,7 @@ void test3() {
     int cols=1;
     int k=3;
     cout<<findPath(rows,cols,k)<<" "<<func(rows,cols,k)<<endl;
+	cout<<endl;
 }
 
 void test4() {
@@ -29,6 +32,7 @@ void test4() {
     int cols=6;
     int k=0;
     cout<<findPath(rows,cols,k)<<" "<<func(rows,cols,k)<<endl;
+	cout<<endl;
 }
 
 void test5() {
@@ -36,6 +40,7 @@ void test5() {
     int cols=6;
     int k=-1;
     cout<<findPath(rows,cols,k)<<" "<<func(rows,cols,k)<<endl;
+	cout<<endl;
 }
 
 int main() {

@@ -42,6 +42,8 @@ bool findPathCore(int rows, int cols, int k, int row, int col, bool *visited, in
 	bool mark=false;
 	if (row>=0&&row<rows&&col>=0&&col<cols&&!(visited[index])&&sum<=k) {
 
+		cout<<row<<" "<<col<<endl;
+
 		visited[index]=true;
 		count++;
 
